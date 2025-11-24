@@ -30,15 +30,18 @@ Toda la documentación generada durante el desarrollo de UniStay se encuentra en
 
 ### Documentos incluidos en el repositorio
 
-**Historias de Usuario (PDF)**  
-Documento oficial con las historias de usuario del proyecto UniStay.  
-[➡️ Abrir documento](./DOCUMENTACION/HISTORIAS_USUARIO_UNISTAY_IS_01_2025.pdf)
-
 ---
 
 **Documentación General (PDF)**  
 Resumen del proyecto, alcance, actores y objetivos principales.  
 [➡️ Abrir documento](./DOCUMENTACION/Documentacion_UniStay_IS.pdf)
+
+---
+
+**Historias de Usuario (PDF)**  
+Documento oficial con las historias de usuario del proyecto UniStay.  
+[➡️ Abrir documento](./DOCUMENTACION/HISTORIAS_USUARIO_UNISTAY_IS_01_2025.pdf)
+
 
 ---
 
