@@ -1,0 +1,67 @@
+Dependencias del proyecto UniStay (con descripción breve)
+1. Spring Boot
+spring-boot-starter-web
+
+Proporciona todo lo necesario para crear APIs REST: controladores, manejo de solicitudes HTTP, serialización JSON y servidor embebido.
+
+spring-boot-starter-data-jpa
+
+Permite interactuar con la base de datos mediante JPA/Hibernate, haciendo más fácil el manejo de entidades y consultas.
+
+spring-boot-starter-security
+
+Agrega autenticación y autorización; permite configurar filtros de seguridad, roles, cifrado de contraseñas, etc.
+
+spring-boot-starter-validation
+
+Habilita validaciones con anotaciones como @NotNull, @Email, @Size, para validar DTOs y entidades.
+
+spring-boot-starter-mail
+
+Incluye JavaMailSender para enviar correos electrónicos (confirmaciones, restablecimiento de contraseña, notificaciones, etc.).
+
+2. Base de Datos
+postgresql
+
+Driver JDBC que permite a la aplicación conectarse a PostgreSQL y ejecutar operaciones SQL.
+
+3. JWT (Autenticación basada en tokens)
+jjwt-api
+
+Define la API para construir y validar JWTs.
+
+jjwt-impl
+
+Implementación interna que permite generar, firmar y verificar los tokens.
+
+jjwt-jackson
+
+Habilita el soporte de JSON mediante Jackson para serializar/deserializar el contenido del JWT.
+
+4. Migraciones de Base de Datos (Flyway)
+flyway-core
+
+Motor de migraciones que ejecuta scripts SQL automáticamente al iniciar el proyecto.
+
+flyway-database-postgresql
+
+Conector específico para PostgreSQL que permite a Flyway trabajar con esta base de datos.
+
+5. Utilidades y herramientas del proyecto
+lombok
+
+Reduce código repetitivo generando automáticamente getters, setters, constructores, builders, etc.
+
+google-api-client
+
+Cliente oficial para consumir APIs de Google (como OAuth, Document AI, Drive, etc.).
+
+6. Dependencias para pruebas
+spring-boot-starter-test
+
+Incluye frameworks de pruebas como JUnit, Mockito y AssertJ para escribir y ejecutar pruebas unitarias e integrales.
+
+Dependencia adicional utilizada (no listada explícitamente)
+JavaMailSender (incluida dentro de spring-boot-starter-mail)
+
+Servicio utilizado para enviar correos SMTP, manejar plantillas MIME y adjuntos.
